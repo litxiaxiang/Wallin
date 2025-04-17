@@ -3,7 +3,7 @@
 ![platform](https://img.shields.io/badge/platform-macOS-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
-> 一款基于 SwiftUI 构建的 macOS 桌面壁App，支持自动更换壁纸、状态栏控制、轻量无打扰。
+> 一款基于 SwiftUI 构建的 macOS 桌面壁纸App，支持自动更换壁纸、状态栏控制、轻量无打扰。
 
 ---
 
