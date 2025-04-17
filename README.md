@@ -3,7 +3,7 @@
 ![platform](https://img.shields.io/badge/platform-macOS-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
-> 一款基于 SwiftUI 构建的 macOS 桌面壁纸工具，支持自动更换壁纸、状态栏控制、轻量无打扰。
+> 一款基于 SwiftUI 构建的 macOS 桌面壁App，支持自动更换壁纸、状态栏控制、轻量无打扰。
 
 ---
 
@@ -21,13 +21,13 @@
 
 > 示例展示界面如下图（更多截图见 releases 或官网）：
 
-<img src="./screenshot.png" width="480" alt="Wallin App 界面截图" />
+<img src="[./screenshot.png](https://wallin.litgame.ac.cn/screenshot.png)" width="480" alt="Wallin App 界面截图" />
 
 ---
 
 ## 📦 下载地址
 
-> 最新版本直接下载（macOS 11+ 支持）：
+> 最新版本直接下载（macOS 11+ 支持，注：低于15版本的还未测试，部分功能不可用）：
 
 🔗 [点击下载 Wallin_v1.0.zip](https://cdn.litgame.ac.cn/downloads/Wallin_v1.0.zip)
 
