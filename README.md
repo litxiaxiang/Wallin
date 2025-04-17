@@ -21,7 +21,7 @@
 
 > 示例展示界面如下图（更多截图见 releases 或官网）：
 
-<img src="[./screenshot.png](https://wallin.litgame.ac.cn/screenshot.png)" width="480" alt="Wallin App 界面截图" />
+<img src="./screenshot.png" width="480" alt="Wallin App 界面截图" />
 
 ---
 
