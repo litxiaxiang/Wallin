@@ -19,9 +19,10 @@
 
 ## 🖥 应用截图
 
-> 示例展示界面如下图（更多截图见 releases 或官网）：
+> 示例展示界面如下图：
 
 <img src="./screenshot.png" width="480" alt="Wallin App 界面截图" />
+<img src="./screenshot2.png" width="480" alt="Wallin App 界面截图" />
 
 ---
 
