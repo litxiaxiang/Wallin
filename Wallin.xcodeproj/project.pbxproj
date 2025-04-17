@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		97C3B2DB2DABFD7400D044E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C3B2C42DABFD7300D044E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97C3B2CB2DABFD7300D044E7;
+			remoteInfo = Wallin;
+		};
+		97C3B2E52DABFD7400D044E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C3B2C42DABFD7300D044E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97C3B2CB2DABFD7300D044E7;
+			remoteInfo = Wallin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97C3B2CC2DABFD7300D044E7 /* Wallin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C3B2DA2DABFD7400D044E7 /* WallinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C3B2E42DABFD7400D044E7 /* WallinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		97C3B2CE2DABFD7300D044E7 /* Wallin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Wallin;
+			sourceTree = "<group>";
+		};
+		97C3B2DD2DABFD7400D044E7 /* WallinTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WallinTests;
+			sourceTree = "<group>";
+		};
+		97C3B2E72DABFD7400D044E7 /* WallinUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WallinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97C3B2C92DABFD7300D044E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C3B2D72DABFD7400D044E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C3B2E12DABFD7400D044E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97C3B2C32DABFD7200D044E7 = {
+			isa = PBXGroup;
+			children = (
+				97C3B2CE2DABFD7300D044E7 /* Wallin */,
+				97C3B2DD2DABFD7400D044E7 /* WallinTests */,
+				97C3B2E72DABFD7400D044E7 /* WallinUITests */,
+				97C3B2CD2DABFD7300D044E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97C3B2CD2DABFD7300D044E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97C3B2CC2DABFD7300D044E7 /* Wallin.app */,
+				97C3B2DA2DABFD7400D044E7 /* WallinTests.xctest */,
+				97C3B2E42DABFD7400D044E7 /* WallinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97C3B2CB2DABFD7300D044E7 /* Wallin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C3B2EE2DABFD7400D044E7 /* Build configuration list for PBXNativeTarget "Wallin" */;
+			buildPhases = (
+				97C3B2C82DABFD7300D044E7 /* Sources */,
+				97C3B2C92DABFD7300D044E7 /* Frameworks */,
+				97C3B2CA2DABFD7300D044E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				97C3B2CE2DABFD7300D044E7 /* Wallin */,
+			);
+			name = Wallin;
+			packageProductDependencies = (
+			);
+			productName = Wallin;
+			productReference = 97C3B2CC2DABFD7300D044E7 /* Wallin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97C3B2D92DABFD7400D044E7 /* WallinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C3B2F12DABFD7400D044E7 /* Build configuration list for PBXNativeTarget "WallinTests" */;
+			buildPhases = (
+				97C3B2D62DABFD7400D044E7 /* Sources */,
+				97C3B2D72DABFD7400D044E7 /* Frameworks */,
+				97C3B2D82DABFD7400D044E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97C3B2DC2DABFD7400D044E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				97C3B2DD2DABFD7400D044E7 /* WallinTests */,
+			);
+			name = WallinTests;
+			packageProductDependencies = (
+			);
+			productName = WallinTests;
+			productReference = 97C3B2DA2DABFD7400D044E7 /* WallinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97C3B2E32DABFD7400D044E7 /* WallinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C3B2F42DABFD7400D044E7 /* Build configuration list for PBXNativeTarget "WallinUITests" */;
+			buildPhases = (
+				97C3B2E02DABFD7400D044E7 /* Sources */,
+				97C3B2E12DABFD7400D044E7 /* Frameworks */,
+				97C3B2E22DABFD7400D044E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97C3B2E62DABFD7400D044E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				97C3B2E72DABFD7400D044E7 /* WallinUITests */,
+			);
+			name = WallinUITests;
+			packageProductDependencies = (
+			);
+			productName = WallinUITests;
+			productReference = 97C3B2E42DABFD7400D044E7 /* WallinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97C3B2C42DABFD7300D044E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					97C3B2CB2DABFD7300D044E7 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					97C3B2D92DABFD7400D044E7 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 97C3B2CB2DABFD7300D044E7;
+					};
+					97C3B2E32DABFD7400D044E7 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 97C3B2CB2DABFD7300D044E7;
+					};
+				};
+			};
+			buildConfigurationList = 97C3B2C72DABFD7300D044E7 /* Build configuration list for PBXProject "Wallin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97C3B2C32DABFD7200D044E7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 97C3B2CD2DABFD7300D044E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97C3B2CB2DABFD7300D044E7 /* Wallin */,
+				97C3B2D92DABFD7400D044E7 /* WallinTests */,
+				97C3B2E32DABFD7400D044E7 /* WallinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97C3B2CA2DABFD7300D044E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C3B2D82DABFD7400D044E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C3B2E22DABFD7400D044E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97C3B2C82DABFD7300D044E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C3B2D62DABFD7400D044E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C3B2E02DABFD7400D044E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97C3B2DC2DABFD7400D044E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97C3B2CB2DABFD7300D044E7 /* Wallin */;
+			targetProxy = 97C3B2DB2DABFD7400D044E7 /* PBXContainerItemProxy */;
+		};
+		97C3B2E62DABFD7400D044E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97C3B2CB2DABFD7300D044E7 /* Wallin */;
+			targetProxy = 97C3B2E52DABFD7400D044E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97C3B2EC2DABFD7400D044E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9MXTV6D248;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97C3B2ED2DABFD7400D044E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9MXTV6D248;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		97C3B2EF2DABFD7400D044E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Wallin/Wallin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MXTV6D248;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = litgame.Wallin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		97C3B2F02DABFD7400D044E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Wallin/Wallin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MXTV6D248;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = litgame.Wallin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		97C3B2F22DABFD7400D044E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MXTV6D248;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = litgame.WallinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wallin";
+			};
+			name = Debug;
+		};
+		97C3B2F32DABFD7400D044E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MXTV6D248;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = litgame.WallinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wallin";
+			};
+			name = Release;
+		};
+		97C3B2F52DABFD7400D044E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MXTV6D248;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = litgame.WallinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wallin;
+			};
+			name = Debug;
+		};
+		97C3B2F62DABFD7400D044E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MXTV6D248;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = litgame.WallinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wallin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97C3B2C72DABFD7300D044E7 /* Build configuration list for PBXProject "Wallin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C3B2EC2DABFD7400D044E7 /* Debug */,
+				97C3B2ED2DABFD7400D044E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C3B2EE2DABFD7400D044E7 /* Build configuration list for PBXNativeTarget "Wallin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C3B2EF2DABFD7400D044E7 /* Debug */,
+				97C3B2F02DABFD7400D044E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C3B2F12DABFD7400D044E7 /* Build configuration list for PBXNativeTarget "WallinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C3B2F22DABFD7400D044E7 /* Debug */,
+				97C3B2F32DABFD7400D044E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C3B2F42DABFD7400D044E7 /* Build configuration list for PBXNativeTarget "WallinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C3B2F52DABFD7400D044E7 /* Debug */,
+				97C3B2F62DABFD7400D044E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97C3B2C42DABFD7300D044E7 /* Project object */;
+}
