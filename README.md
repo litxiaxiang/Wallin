@@ -22,7 +22,8 @@
 > 示例展示界面如下图：
 
 <img src="./screenshot.png" width="480" alt="Wallin App 界面截图" />
-<img src="./screenshot2.png" width="480" alt="Wallin App 界面截图" />
+<img src="./screenshot3.png" width="480" alt="Wallin App 界面截图" />
+<img src="./screenshot4.png" width="480" alt="Wallin App 界面截图" />
 
 ---
 
